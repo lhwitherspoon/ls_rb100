@@ -31,3 +31,12 @@ puts ((4216 % 1000) % 100) / 10
 # (((<num> % 1000> % 100) % 10 will give the modulus, which is the ones digit.
 puts "This is the ones digit"
 puts ((4216 % 1000) % 100) % 10
+
+# Using a variable name
+
+num = 4216
+
+puts "#{num / 1000} is the thousands digit." # this is the thousands digit
+puts "#{ (num % 1000) /100} is the hundreds digit." # This is the hundreds digit
+puts "#{((num % 1000) % 100) / 10} is the tens digit." # This is the tens digit
+puts "#{(((num % 1000)%100)%10)} is the ones digit." # This is the ones digit
