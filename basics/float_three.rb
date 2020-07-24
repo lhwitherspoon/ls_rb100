@@ -1,3 +1,4 @@
+# Launch School RB100 Les Witherspoon 2020-07-23
 # Write a program to calculate the squares of three float numbers of my choosing. 
 # I assume here that it is to take three separate numbers and produce the result in one operation.
 
