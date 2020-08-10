@@ -1,3 +1,6 @@
+# Les witherspoon
+# Launch School RB100
+# Selecting family members
 family = {  
           uncles: ["bob", "joe", "steve"],
           sisters: ["jane", "jill", "beth"],
@@ -13,7 +16,7 @@ family.select do  |k, v|
     closest_family.push(v)
   elsif k == :brothers
     closest_family.push(v)  
-  else
+  elsehttps://www.livescience.com/50400-quinoa-nutrition-facts.html
     next
   end
 end
